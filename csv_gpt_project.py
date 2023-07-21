@@ -4,7 +4,7 @@ from langchain.llms import OpenAI
 from dotenv import load_dotenv
 from PIL import Image
 
-def main():
+def main(): 
     st.set_page_config(page_title="BridgeHealth Assistant")
 
     image = Image.open("/home/ananthkini/data/final_logo.png")
